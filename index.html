@@ -1,111 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia Mundial das Tartarugas Marinhas: como ajudar a conservá-las?</title>
     <link rel="stylesheet" href="style.css">
-    <title>Inicio</title>
 </head>
 <body>
     <header>
-        <img src="" alt="logo">
-        <ul>
-            <li>Sobre Nós</li>
-            <li>Categorias</li>
-            <li>Blog</li>
-            <li>Categorias</li>
-        </ul>
-        <button>Entrar</button>
+
+        <a href="#"><img src="imagens/logo.png" alt="Logo National Geographic"></a>
+
+        <nav>
+            <ul>
+             <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Fotografia</a></li>
+            </ul>
+       </nav>
+       <a href="login.html"><button>Entrar</button></a>
+        
     </header>
+    
+    <main>       
+        <div class="conteudo">
 
-    <main>
-        <time datetime="2022-06-17">17/06/2022</time>
-        <h1>Dia Mundial das Tartarugas Marinhas: como ajudar a conservá-las?</h1>
-        <img src="" alt="Tartaruga Marinha">
-        <p>As tartarugas marinhas existem desde a época dos dinossauros e sobreviveram a vários eventos de extinção ao longo de 100 milhões de anos. Mas o efeito cascata da atividade humana causou um rápido declínio populacional, e agora seis das sete espécies de tartarugas marinhas estão em perigo de extinção.
-        <br>
-        Mas há vislumbres de esperança, graças ao trabalho dedicado de conservacionistas e organizações comunitárias em todo o mundo. Como é o caso de Trinidad e Tobago – uma nação de duas ilhas no extremo sul do arquipélago caribenho –, que abriga uma das colônias de tartarugas-de-couro mais importantes do Hemisfério Ocidental e a segunda maior do mundo, depois do Gabão.</p>
+            <div class="conteudo-1">
+                <time datetime="2008-02-14">17/06/2022</time> <!--A tag time serve para representar data, hora e intervalo de tempo, é uma tag semântica-->
+                <h1>Dia Mundial das Tatarugas Marinhas:<br>como ajudar a conservá-las?</h1>
+                <img src="imagens/tartaruga.png" alt="Tartaruga">
+                <figcaption>Tartaruga Marinha - Foto de Alexandre o Grande</figcaption> <!--Essa tag define a legenda para a imagem-->
+            </div>
 
-        <img src="" alt="Tartaruga Marinha - 2">
+            <br>
 
-        <aside>
-            <img src="" alt="Propaganda Bravecto">
-        </aside>
+            <div class="conteudo-2">
+                <p>As tartarugas marinhas existem desde a época dos dinossauros e sobreviveram a vários eventos de extinção ao longo de 100 milhões de anos. Mas o efeito cascata da atividade humana causou um rápido declínio populacional, e agora seis das sete espécies de tartarugas marinhas estão em perigo de extinção.
+                <br>
+                Mas há vislumbres de esperança, graças ao trabalho dedicado de conservacionistas e organizações comunitárias em todo o mundo. Como é o caso de Trinidad e Tobago – uma nação de duas ilhas noextremo sul do arquipélago caribenho –, que abriga uma das colônias de tartarugas-de-couro mais importantes do Hemisfério Ocidental e a segunda maior do mundo, depois do Gabão.</p>
+                <br>
+                <img src="imagens/tartaruga-2.png" alt="Tartaruga">
+                <figcaption>Tartaruga Marinha - Foto de Kátia Valadão</figcaption>
+                <p>
+                    A cada temporada, equipes de conservação nas ilhas dependem dos visitantes para ajudar essas criaturas a terem uma chance de lutar contra as inúmeras ameaças à sua sobrevivência – incluindo destruição de habitat, problemas reprodutivos induzidos por mudanças climáticas e captura acidental no mar.
+                    <br>
+                    Os passeios de observação de tartarugas que eles realizam fornecem receitas vitais para financiar tanto o monitoramento e as patrulhas quanto os voluntários – incluindo viajantes do exterior – que trabalham no lugar.
+                    <br>
+                    “É literalmente nossa paixão, ninguém entra aqui para ganhar dinheiro”, diz Giancarlo Lalsingh, que passou 30 anos trabalhando com conservação no local, incluindo mais de uma década na Save Our Sea Turtles (SOS Tobago). “É muito difícil. Mas o resultado de todo esse trabalho vale muito a pena."
+                    <br>
+                    Independentemente da habilidade ou experiência, existe uma forma em que as pessoas podem ajudar as novas gerações de tartarugas marinhas a sobreviverem contra todos os prognósticos. Saiba mais sobre as ameaças que esses animais estão enfrentando e como ajudar.
+                </p>
+                <br>
+
+                <aside>
+                    <a href="https://www.bravecto.com.br/"><img src="imagens/propaganda.png" alt="Propaganda Bravecto"></a>
+                </aside>
+            </div>
+
+            
+
+        </div>
+
+        <form> <!--Colocar sombra no formulário-->
+            <fiedset>
+                <legend>Deixe seu comentário</legend>
+                <label for="nome" >Nome</label>
+                <input type="text" required>
+
+                <label for="email">Email</label>
+                <input type="email" required>
+                <br>
+                <textarea name="mensagem" id="mensagem">Comentário</textarea>
+                <button>Enviar comentário</button>
+            </fiedset>
+        </form>
+
+        <section>
+
+            <h1>Matérias Relacionadas</h1>
+            
+        <div class="materias">
+            <div class="temas">
+                <a href="#"><img src="imagens/materias/imagem-1.png" alt=""></a>
+                <br>
+                <time datetime="14/06/2022">14/06/2022</time>
+                <h2>Super lua de morango: o que é e por que se chama assim</h2>
+            </div>
+            
+            <div class="temas">
+                <a href="#"><img src="imagens/materias/imagem-2.png" alt=""></a>
+                <br>
+                <time datetime="14/06/2022">14/06/2022</time>
+                <h2>A eletricidade está transformando a medicina</h2>
+            </div>
+
+            <div class="temas">
+                <a href="#"><img src="imagens/materias/imagem-3.png" alt=""></a>
+                <br>
+                <time datetime="14/06/2022">14/06/2022</time>
+                <h2>Um encontro espetacular com um leão de Juba Negra na Etiópia</h2>
+            </div>
+
+            <div class="temas">
+                <a href="#"><img src="imagens/materias/imagem-4.png" alt=""></a>
+                <br>
+                <time datetime="14/06/2022">14/06/2022</time>
+                <h2>O maior telescópio totalmente orientável do mundo</h2>
+            </div>
+
+        </div>
+
+        </section>
+
     </main>
 
-    <section>
-        <h2>Deixe seu Comentario</h2>
-        <form>
-            <label for="Name">Nome</label>
-            <input type="text" id="name">
-            <label for="Email">Email</label>
-            <input type="email">
-            <label for="Comentario">Comentario</label>
-            <textarea name="Comentario" id="Comentario"></textarea>
-            <button>Enviar Comentário</button>
-        </form>
-    </section>
-
-    <section>
-        <h2>Materias Relacionadas</h2>
-        <div id="" class="">
-            <div class="menu-item">
-                <img src="" alt="">
-                <time datetime="2022/06/14">14/06/2022</time>
-                <p>Superlua de morango: o que é e por que se chama assim</p>
-            </div>
-
-            <div class="menu-item">
-                <img src="" alt="">
-                <time datetime="2022/06/14">14/06/2022</time>
-                <p>A eletricidade está transformando a medicina</p>
-            </div>
-            
-            <div class="menu-item">
-                <img src="" alt="">
-                <time datetime="2022/06/14">14/06/2022</time>
-                <p>Um encontro espetacular com um leão de Juba Negra na Etiópia</p>
-            </div>
-            
-            <div class="menu-item">
-                <img src="" alt="">
-                <time datetime="2022/06/14">14/06/2022</time>
-                <p>O maior telescópio totalmente orientável do mundo</p>
-            </div>           
-        </div>
-    </section>
+        
+    
 
     <footer>
-        <div>
-            <ul>
-                <li>Termos de Uso</li>
-                <li>Política de Privacidade</li>
-                <li>Proteção de dados no Brasul</li>
-            </ul>
-        </div>
+        
+            <div class="c1"> <!---->
+                <ul>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Proteção de dados no Brasul</a></li>
+                </ul>
+            </div>
 
-        <div>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-
-        <div>
-            <ul>
-                <li></li>
-            </ul>
-        </div>
+            <div class="container">
+                <div class="primeira-coluna">
+                    <p>Descubra a NET GEO</p>
+                    <ul>
+                         <!--Título-->
+                        <li><a href="#">Animais</a></li>
+                        <li><a href="#">Meio Ambiente</a></li>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Ciência</a></li>
+                        <li><a href="#">Viagem</a></li>
+                        <li><a href="#">Fotografia</a></li>
+                        <li><a href="#">Espaço</a></li>
+                        <li><a href="#">Vídeo</a></li>
+                    </ul>
+                </div>
+                <div class="segunda-coluna">
+                    <p>Sobre nós</p>
+                    <ul>
+                        <li><a href="#">Assuntos, autores e fotógrafos</a></li>
+                        <li><a href="#">National Geographic Partners</a></li>
+                        <li><a href="#">National Geographic Society</a></li>
+                        <li><a href="#">Programação na tv</a></li>
+                    </ul>
+                </div>
+                <div class="terceira-coluna">
+                    <ul>
+                        <li><a href="#">Inscrição</a></li>
+                        <li><a href="#">Assine a newsletter</a></li>
+                        <li><a href="#">Disney+</a></li>
+                    </ul>
+                </div>
+                <div class="quarta-coluna">
+                    <p>Siga-nos</p>
+                    <ul>
+                
+                        <li><a href="#"><img src="imagens/redes-sociais/twitter.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="imagens/redes-sociais/youtube.png" alt="YouTube"></a></li>
+                        <li><a href="#"><img src="imagens/redes-sociais/youtube.png" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
         
     </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
